@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#my-navbar">
 
     <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
@@ -28,7 +28,7 @@
             </div><!-- Navbar-header -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <a href="" class="btn btn-sm btn-warning navbar-btn navbar-right">Download Now</a>
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav slow-scroll">
                     <li><a href="#feedback">Feedback</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#features">Features</a></li>
@@ -60,21 +60,21 @@
                 <h2>Feedback.<small> Check out the Awesome Feedback</small></h2>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <blockquote>
                         <p>Designed with cutting-edge Bootstrap technology, this masterfully designed site is the envy of everyone who did not follow
                            Wiredwiki's Bootstrap 3 tutorial.</p>
                         <footer>Imasu Perjelous</footer>
                     </blockquote>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <blockquote>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum turpis sed rutrum faucibus.
                            Ut quis ipsum vestibulum, efficitur arcu ac, mattis lacus. Sed id venenatis orci. Suspendisse potenti.</p>
                         <footer>John Doe</footer>
                     </blockquote>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <blockquote>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum turpis sed rutrum faucibus.
                            Ut quis ipsum vestibulum, efficitur arcu ac, mattis lacus. Sed id venenatis orci. Suspendisse potenti.</p>
@@ -173,38 +173,38 @@
             </div><!-- End page header -->
 
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-sm-8">
                     <h3>All of your downloads in one place</h3>
                     <p>Nam auctor tellus sed ipsum bibendum ultricies. Proin sapien erat, pharetra in imperdiet et, accumsan eget diam.
                        Ut nec vehicula leo. Morbi nec massa orci. Sed tincidunt elementum diam, ac ultricies urna semper sed.
                        Nullam cursus tincidunt felis. Nulla tincidunt, turpis tincidunt ultricies pharetra, augue nisl lobortis libero,
                        quis lobortis lectus lorem sed mauris. Morbi ut eros sapien.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <img src="images/imac.jpg" class="img-responsive" alt="image">
                 </div>
             </div><!-- End row -->
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-sm-8">
                     <h3>Easy to use interface for Android and iOS</h3>
                     <p>Nam auctor tellus sed ipsum bibendum ultricies. Proin sapien erat, pharetra in imperdiet et, accumsan eget diam.
                         Ut nec vehicula leo. Morbi nec massa orci. Sed tincidunt elementum diam, ac ultricies urna semper sed.
                         Nullam cursus tincidunt felis. Nulla tincidunt, turpis tincidunt ultricies pharetra, augue nisl lobortis libero,
                         quis lobortis lectus lorem sed mauris. Morbi ut eros sapien.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <img src="images/smartphone.jpg" class="img-responsive" alt="image">
                 </div>
             </div><!-- End row -->
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-sm-8">
                     <h3>Look at this guy play with his phone</h3>
                     <p>Nam auctor tellus sed ipsum bibendum ultricies. Proin sapien erat, pharetra in imperdiet et, accumsan eget diam.
                         Ut nec vehicula leo. Morbi nec massa orci. Sed tincidunt elementum diam, ac ultricies urna semper sed.
                         Nullam cursus tincidunt felis. Nulla tincidunt, turpis tincidunt ultricies pharetra, augue nisl lobortis libero,
                         quis lobortis lectus lorem sed mauris. Morbi ut eros sapien.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <img src="images/user.jpg" class="img-responsive" alt="image">
                 </div>
             </div><!-- End row -->
@@ -212,7 +212,7 @@
             <hr>
 
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-body">
                             <span class="glyphicon glyphicon-ok"></span>
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-body">
                             <span class="glyphicon glyphicon-star"></span>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <div class="panel panel-default text-center">
                         <div class="panel-body">
                             <span class="glyphicon glyphicon-play-circle"></span>
@@ -253,7 +253,7 @@
     <!-- FAQ -->
     <div class="container">
         <section>
-            <div class="page-header" id="FAQ">
+            <div class="page-header" id="faq">
                 <h2>FAQ.<small> Engaging with consumers.</small></h2>
             </div><!-- End page header -->
 
@@ -310,9 +310,112 @@
         </section>
     </div><!-- End container -->
 
+    <!-- Contact us -->
+    <div class="container">
+        <section>
+            <div class="page-header" id="contact">
+                <h2>Contact Us.<small> Contact us for more.</small></h2>
+            </div><!-- End page header -->
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Send us a message, or contact us at the address below</p>
+                    <address>
+                        <strong>DevJack Pvt Ltd.</strong><br>
+                        1111 Calle Vista Dr<br>
+                        Beverly Hills, CA 90210<br>
+                        Phone: 310-449-3777
+                    </address>
+                </div>
+
+                <div class="col-lg-8">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+                            </div>
+                        </div><!-- End form group -->
+
+                        <div class="form-group">
+                            <label for="user-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-email" placeholder="Enter your Email Address">
+                            </div>
+                        </div><!-- End form group -->
+
+                        <div class="form-group">
+                            <label for="user-url" class="col-lg-2 control-label">Your Website</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-url" placeholder="If you have one">
+                            </div>
+                        </div><!-- End form group -->
+
+                        <div class="form-group">
+                            <label for="user-message" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div><!-- End form group -->
+
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit" class="btn btn-info">Submit</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div><!-- End the row -->
+
+        </section>
+    </div>
+
+<!-- Footer -->
+
+    <footer>
+
+        <hr>
+
+        <div class="container text-center">
+            <h3>Subscribe for daily email harassment</h3>
+            <p>enter your name and email</p>
+
+            <form action="" class="form-inline">
+                <div class="form-group">
+                    <label for="footer-subscription">Subscribe</label>
+                    <input type="text" class="form-control" id="footer-subscription" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="footer-email">Email Address</label>
+                    <input type="text" class="form-control" id="footer-email" placeholder="Your Email">
+                </div>
+                <button type="submit" class="btn btn-info">Subscribe</button>
+            </form>
+
+            <hr>
+
+            <ul class="list-inline">
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">YouTube</a></li>
+            </ul>
+
+            <p>&copy; Copyright <script language="javascript" type="text/javascript">
+                var today = new Date()
+                var year = today.getFullYear()
+                document.write(year)
+            </script></p>
+
+        </div>
+    </footer>
+
 <!-- Latest JQuery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>
